@@ -1,0 +1,55 @@
+# === Python cache and compiled files ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+
+# === Virtual environment folders ===
+venv/
+env/
+.venv/
+.env/
+
+# === Flask and config ===
+instance/
+*.log
+*.sqlite3
+*.db
+
+# === Machine Learning model files ===
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.onnx
+*.sav
+
+# === Datasets and large data ===
+data/
+datasets/
+*.csv
+*.tsv
+*.xlsx
+*.jsonl
+*.zip
+*.tar
+*.gz
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === OS / Editor / IDE specific ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.bak
+
+# === Environment variables ===
+.env
